@@ -12,6 +12,7 @@ public class Projectile {
 		visible = true;
 	}
 	
+	// Update speedX
 	public void update() {
 		x += speedX;
 		if (x > 800) {
